@@ -1,10 +1,15 @@
+import CartWidget from "../CartWidget/CartWidget"
+
 const NavBar = () => {
     return (
         <nav>
-            <h1>PRIMERA ENTREGA</h1>
+            <h1>Bienvenidos a</h1>
+            <h1>GOOD LUCK</h1>
             <div>
-                <button>Click Aquí</button>
+                <button>Quiénes somos</button>
             </div>
+
+            <CartWidget/>
         </nav>
     )
 }
